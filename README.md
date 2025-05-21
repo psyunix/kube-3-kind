@@ -219,7 +219,15 @@ We need to expose the Nginx deployment using a Service.
 
 ---
 
-## Step 6: Clean Up
+## Step 6: Pull the docker image from psyunix docker hub and run it
+
+```bash 
+kubectl --context kind-cluster1 run cmatrix --image=psyunix/vm:cmatrix -it
+```
+
+---
+
+## Step 7: Clean Up
 
 When you are done, delete the clusters to free up resources.
 
