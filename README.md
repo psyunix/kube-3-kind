@@ -220,5 +220,4 @@ Conclusion
 
 You have successfully created three separate Kubernetes clusters using Kind on Docker Desktop. You deployed Nginx and exposed it via a service in each cluster. This setup is useful for testing multi-cluster deployments, service meshes (like Istio or Linkerd), and Kubernetes federation.
 
-Would you like help setting up multi-cluster networking or ingress controllers? 🚀
 
